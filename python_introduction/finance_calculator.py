@@ -1,10 +1,10 @@
 #Declaring variables
 
 #Getting monthly income from user
-monthly_income = int(input("Enter your monthly income: "))
+monthly_income = float(input("Enter your monthly income: "))
 
 #Monthly total expenses
-total_monthly_expenses = int(input("Enter your total monthly expenses: "))
+total_monthly_expenses = float(input("Enter your total monthly expenses: "))
 
 #Calculating Monthly savings
 monthly_savings = monthly_income - total_monthly_expenses
