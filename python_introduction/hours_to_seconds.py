@@ -1,11 +1,8 @@
 #Declaring variables
 #Hours
 hours = 2
-
-#Seconds
-seconds =3600
-
+s = 3600
 #Doing calculations
-result = hours * seconds
+seconds = hours * s
 #Printing to the user
-print(f"{hours} hour(s) is {result} seconds.")
+print(f"{hours} hour(s) is {seconds} seconds.")
