@@ -1,15 +1,15 @@
 #Declaring Variables
 #PRINCIPAL
-P = 1000
+principal = 1000
 
 #RATE IN %
-R = 0.05
+rate = 0.05
 
 #TIME IN YEARS
-T = 3
+time = 3
 
 #CALCULATING THE INTEREST
-interest = P * R * T
+interest = principal * rate * time
 
 #Displaying the Interest to the user
 print(f"The simple interest is: {interest}")
