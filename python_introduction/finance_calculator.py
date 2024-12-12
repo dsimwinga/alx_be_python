@@ -4,10 +4,10 @@
 monthly_income = float(input("Enter your monthly income: "))
 
 #Monthly total expenses
-total_monthly_expenses = float(input("Enter your total monthly expenses: "))
+monthly_expenses = float(input("Enter your total monthly expenses: "))
 
 #Calculating Monthly savings
-monthly_savings = monthly_income - total_monthly_expenses
+monthly_savings = monthly_income - monthly_expenses
 
 #Yearly savings rate
 annual_interest = 0.05
