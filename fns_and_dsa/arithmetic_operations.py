@@ -10,6 +10,6 @@ def perform_operation(num1, num2, operation):
     
     else:
         if num2 == 0 and operation == 'divide':
-            print("Second Number Should be an Integer.")
+            return 0
         else:
             return num1 / num2
